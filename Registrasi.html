@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registrasi</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <form class="signup-form" action="/register" method="post">
+
+        <!-- header -->
+        <div class="form-header">
+          <h1>Registrasi</h1>
+        </div>
+  
+        <!-- body -->
+        <div class="form-body">
+  
+          <!-- nama -->
+          <div class="horizontal-group">
+           
+              <label for="Nama" class="label-title">Nama</label>
+              <input type="text" id="Nama" class="form-input" placeholder="Nama" required="required" />
+           
+          </div>
+
+          <!-- Username -->
+          <div class="horizontal-group">
+           
+            <label for="Username" class="label-title">Username</label>
+            <input type="text" id="Nama" class="form-input" placeholder="Username" required="required" />
+         
+        </div>
+
+        <!-- E-Mail -->
+        <div class="horizontal-group">
+           
+            <label for="E-Mail" class="label-title">E-Mail</label>
+            <input type="text" id="E-Mail" class="form-input" placeholder="E-Mail" required="required" />
+         
+        </div>
+
+          <!-- password -->
+          <div class="horizontal-group">
+            
+              <label for="password" class="label-title">Password </label>
+              <input type="password" id="password" class="form-input" placeholder="Password" required="required">
+           
+          </div>
+  
+          <!-- jenis kelamin -->
+          <div class="horizontal-group">
+            
+              <label class="label-title">Jenis Kelamin:</label>
+              <div class="input-group">
+                <label for="Laki-laki"><input type="radio" name="JK" value="Laki-laki" id="Laki-laki"> Laki-laki</label>
+                <label for="Perempuan"><input type="radio" name="JK" value="Perempuan" id="Perempuan"> Perempuan</label>
+              
+          </div>
+  
+          <!-- jurusan -->
+          <div class="horizontal-group">
+            
+              <label class="label-title">Jurusan</label>
+              <select class="form-input" id="level" >
+                <option value="B">Sistem Informasi</option>
+                <option value="I">Informatika</option>
+              </select>
+          </div>
+  
+          <!-- alamat -->
+          <div class="form-group">
+            <label for="choose-file" class="label-title">Alamat</label>
+            <textarea class="form-input" rows="4" cols="50" style="height:auto"></textarea>
+          </div>
+        </div>
+  
+        <!-- footer -->
+        <div class="form-footer">
+        <a href="Masuk.html">
+            <input class="btn" type="button" value="Registrasi" >
+        </a>
+  
+      </form>
+  
+</body>
+</html>

@@ -1,0 +1,251 @@
+*{
+    text-decoration: none;
+}
+
+body {
+    background: #d4d4d4;
+    font-family: sans-serif;
+  }
+  
+  
+  .signup-form {
+    width:500px;
+    margin:30px auto;
+    background:linear-gradient(to right, #ffffff 0%, #fafafa 50%, #ffffff 99%);
+    border-radius: 10px;
+  }
+
+  .signup-form-nilai {
+    width:500px;
+    margin:30px auto;
+    background:none;
+    border-radius: 10px;
+    color: #1BBA93;
+  }
+  
+  .form-header-nilai {
+    background-color: #EFF0F1;
+    border-radius: 10px;
+    width: 100%;
+  }
+ 
+  .form-header  {
+    background-color: #EFF0F1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .form-header h1 {
+    font-size: 30px;
+    text-align:center;
+    color:#666;
+    padding:20px 0;
+    border-bottom:1px solid #cccccc;
+  }
+
+  .form-header-nilai h1 {
+    font-size: 30px;
+    text-align:center;
+    color:#666;
+    padding:20px 0;
+    border-bottom:1px solid #cccccc;
+  }
+
+  nav {
+    width: 99%;
+    
+    text-decoration: none;
+    border-radius: 10px;
+    }
+
+  nav ul {
+    background: #EFF0F1;
+    
+    list-style: none;
+    
+    display: inline-table;
+    width: 98%;
+    border-radius: 10px;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li:hover a{
+    background: #cccccc;
+    border-radius: 10px;
+}
+
+  nav ul li a {
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    color:#666 ;
+    font-weight: bold;
+    
+  }
+  
+  .form-body {
+    padding:10px 40px;
+    color:#666;
+  }
+  
+  .form-group{
+    margin-bottom:50px;
+  }
+  
+  .form-body .label-title {
+    color:#1BBA93;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  .form-body .form-input {
+      font-size: 17px;
+      box-sizing: border-box;
+      width: 100%;
+      height: 34px;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: #333333;
+      text-align: left;
+      border: 1px solid #d6d6d6;
+      border-radius: 4px;
+      background: white;
+      outline: none;
+      margin-bottom: 10px;
+  }
+
+  .form-body .form-input-nilai {
+      font-size: 17px;
+      box-sizing: border-box;
+      width: 100%;
+      height: 34px;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: #333333;
+      text-align: left;
+      border: 1px solid #d6d6d6;
+      border-radius: 4px;
+      background: white;
+      outline: none;
+      margin-bottom: 10px;
+  }
+
+  .card {
+    
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    
+  }
+
+  .card .label-title-profil{
+    color:#1BBA93;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+.Foto {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+  .input-group{
+      margin-bottom: 10px;
+  }
+  
+  
+  .horizontal-group {
+    float: center;
+    widows: 25%;
+  }
+  
+  input[type="file"] {
+    outline: none;
+    cursor:pointer;
+    font-size: 17px;
+  }
+  
+  #range-label {
+    width:15%;
+    padding:5px;
+    background-color: #1BBA93;
+    color:white;
+    border-radius: 5px;
+    font-size: 17px;
+    position: relative;
+    top:-8px;
+  }
+  
+  
+  ::-webkit-input-placeholder  {
+    color:#d9d9d9;
+  }
+  
+
+  .signup-form .form-footer  {
+    text-align: right;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  
+  .btn {
+     display:inline-block;
+     padding:10px 20px;
+     background-color: #1BBA93;
+     font-size:17px;
+     border:none;
+     border-radius:5px;
+     color:#bcf5e7;
+     cursor:pointer;
+  }
+
+.regis {
+     font: size 10px;
+     color:rgb(27, 186, 147);
+     cursor:pointer;
+     border: none;
+     background: none;
+  }
+  
+  .btn:hover {
+    background-color: #169c7b;
+    color:white;
+  }
+
+  .table {
+    font-family:sans-serif ;
+    color: none;
+    text-shadow: 1px 1px 0px #fff;
+    background: #eaebec;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  .coloumn-name {
+    background-color: #EFF0F1;
+    border-radius: 10px;
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .coloumn {
+    text-align: center;
+    font-weight: bold;
+    color: #666;
+  }
+
+  .value {
+    padding: 15px 35px;
+    background: #fafafa;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+    background: -moz-linear-gradient(top, #fbfbfb, #fafafa);
+    font-weight: bold;
+    color: #666;
+  }
